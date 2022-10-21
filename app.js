@@ -29,6 +29,10 @@ app.get('/divi', (req, res) => {
     console.log(req.query)
 
     return res.status(200).json({result: result})
+    
+    if( num2 === 0){
+        console.log("su nomre es", person)
+    }
 
 })
 
